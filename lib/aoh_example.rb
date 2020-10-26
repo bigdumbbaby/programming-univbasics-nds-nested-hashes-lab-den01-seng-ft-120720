@@ -17,7 +17,10 @@ def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
   
-  
+  literal_array_of_hashes = [
+    { name:  "Pat Monteseian", occupation: "Staff" },
+    { name:  "Kate Gompert", occupation: "None" },
+    { name:  "Bruce Green", occupation: "Fan of Mildred" }]
 end
 
 def aoh_lookup(aoh, row, key)
